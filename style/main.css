@@ -1,0 +1,92 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background-color: #f3f3f3;
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 16px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 47px;
+    color: var(--vermelho);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #ffffff;
+}
+
+/* filme principal*/
+.filme-principal{
+    font-size: 24px;
+    background: linear-gradient(rgba(0,0,0,.46),rgba(0,0,0,.46)100%), url('/img/castlevania-wallpeaper.jpg');
+    font-family: Arial;
+
+    height: 850px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 2%;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 10%;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 15px;
+    margin-right: 15px;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: #f3f3f3;
+    color: var(--preta);
+}
