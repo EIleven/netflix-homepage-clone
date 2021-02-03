@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/netflix.png" type="image/x-icon">
     <link rel="stylesheet" href="style/main.css">
+    <!-- RESPONSIVIDADE-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!-- REFERENCIAL PARA CRIAÇÃO DO CARROCEL-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
     <title>NETFLIX CLONE</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
+            <h2 class="logo"><img src="img/netflix-logo.png" alt="" class="netflixlogo"></h2>
+            <nav class="menu">
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
+                <a href="dragon.html">DRAGONFLIX</a>
             </nav>
         </div>
     </header>
@@ -22,21 +29,75 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo"><img src="img/logo-castlevania.png" alt="">Castlevania</h3>
+                <img src="/img/logo-castlevania.png" alt="" class="logotipo">
+                <h3 class="titulo">Castlevania</h3>
                 <p class="descricao">Um caçador de vampiros luta para salvar uma cidade sitiada por um exército de criaturas controladas pelo próprio Drácula. Inspirado no clássico videogame.
                 </p>
-            </div>
-            <div class="botoes">
-                <button role="button" class="botao">
-                    <img src="" alt="" sizes="" srcset="">
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    MAIS INFORMAÇÕES
-                </button>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <strong>
+                            &#9658;
+                            ASSISTIR AGORA
+                        </strong>
+                    </button>
+                    <button role="button" class="botao">
+                        <strong>
+                            &#9432;
+                            MAIS INFORMAÇÕES
+                        </strong>
+                    </button>
+                </div>
             </div>
         </div>
     </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/memorias-de-idhum-03.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/drifting-dragons-06.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/kabaneri-12.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/last-hope-04.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mushikago-01.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/o-sangue-de-zeus-05.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/pilotos-de-dragão-11.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/seis-punhos-08.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/annon-busters-09.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/devilman-crybaby-10.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/dragons-dogma-07.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--ADIÇÃO DO JAVASCRIPT PARA O CARROSSEL DEVESER FEITA SEMPRE AO FINAL DO CARREGAMENTO DA PÁGINA PARA EVITAR ERROS-->
+    <!--ADICIONANDO O SCRIPT PARA O CARROSSEL-->
+    <script src="js/Olw/jquery.min.js"></script>
+    <script src="js/Olw/owl.carousel.min.js"></script>
+    <script src="js/Olw/setup.js"></script>
 
 
 
