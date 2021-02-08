@@ -171,13 +171,14 @@ header nav a:hover{
 }
 /* CARROSSEL*/
 .item{
-    height: 400px;
-    width: 500px;
+    height: ;
+    width: ;
     display: table-cell;
 }
 
 .carrossel-filmes{
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .carrossel-filmes2{

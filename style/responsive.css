@@ -1,4 +1,4 @@
-@media screen and (max-width:700px){
+@media screen and (max-width:1000px){
     header .container{
         display: flex;
         flex-direction: column;
@@ -6,7 +6,9 @@
 
     .botao{
         margin-top: 5px;
-        width: 300px;
+        width: 200px;
+        align-items: flex;
+        height: max-content;
     }
 
 }
@@ -18,8 +20,17 @@
     
 }
 
-@media screen and (min-width: 1000px){
-    .descricao2{
-        width: 50%;
+@media screen and (max-width: 1000px){
+    .logotipo{
+        width: 170%;
+        align-items: stretch;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .body{
+        width: 10%;
+        height: 10%;
     }
 }
