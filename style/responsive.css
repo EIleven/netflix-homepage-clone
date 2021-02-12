@@ -2,15 +2,28 @@
     header .container{
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     .botao{
         margin-top: 5px;
         width: 200px;
         align-items: flex;
-        height: max-content;
+        height: auto;
     }
 
+}
+
+@media screen and (max-width: 1000px){
+    .filme-principal{
+
+        width: fit-content;
+        display: flex;
+        height: auto;
+        align-content: stretch;
+        align-items: stretch;
+        justify-items: normal
+    }
 }
 
 @media screen and (min-width: 1000px){
@@ -30,7 +43,7 @@
 
 @media screen and (max-width: 1000px){
     .body{
-        width: 10%;
-        height: 10%;
+        width: auto;
+        height: auto;
     }
 }

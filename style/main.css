@@ -54,13 +54,13 @@ header nav a:hover{
     background-image: linear-gradient(rgba(0,0,0,.46),rgba(0,0,0,.46)100%), url('/img/castlevania-wallpeaper.jpg');
     font-family: Arial;
 
-    height: 850px;
-    background-size: cover;
+    height: 750px;
+    background-size: 1518px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex;
 }
 
 .filme-principal .descricao{
@@ -104,20 +104,34 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 50%;
 }
 
 .logotipo{
-    height: 250px;
+    height: 230px;
 }
+
+.menu{
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.menu1:hover{
+    color: var(--vermelho);
+}
+
+.menu2:hover{
+    color: gold;
+}
+
 /*  INÍCIO DO DRAGON FLIX               */
 .filme-secundario{
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)100%), url('/img/dragon-wallpeaper.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.52),rgba(0,0,0,.52)100%), url('/img/dragon-wallpeaper.jpg');
     font-family: Arial;
 
-    width: 1518px;
-    height: 870px;
+    width: 1349px;
+    height: 750px;
     background-size: cover;
 
     display: flex;
@@ -170,18 +184,26 @@ header nav a:hover{
     width: 140%;
 }
 /* CARROSSEL*/
-.item{
-    height: ;
-    width: ;
-    display: table-cell;
-}
 
 .carrossel-filmes{
     margin-top: 5px;
     margin-bottom: 5px;
+    height: 250px;
+    width: auto;
 }
 
 .carrossel-filmes2{
     margin-top: 5px;
     margin-bottom: 5%;
+}
+
+.box-filme{
+    width: auto;
+    height: 250px;
+}
+
+/* COR DO MENU DRAGON FLIX */
+.menu3:hover{
+
+    color: gold;
 }
